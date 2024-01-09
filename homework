@@ -1,0 +1,58 @@
+
+//even number in array
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+    //declaration of function 
+
+    void Evennumber( int arr[], int A);
+
+    {
+         int even = 0;
+         int n = 0;
+
+
+         for(int i = 0 ; i < A ; i++ )
+        {
+           n = arr[n] % 2;
+
+           if  ( n == 0)
+           {
+                even++;
+           }
+
+        }
+
+
+         printf("tne number of even numbers in array are : %d \n", even);
+    }
+
+    int main(void)
+    {
+        int SIZE = 0; 
+        int even = 0;
+
+
+        printf("enter the size of the array");
+        scanf("%d", &SIZE);
+
+        int lab[SIZE];
+
+        printf("values of the array");
+
+        for(int i = 0 ; i < SIZE ; i++)
+        {
+             scanf("%d", &lab[i]);
+
+            printf("lab[%d] : %d \n", i , lab[i]);
+        }
+
+        Evennumber( lab , SIZE);
+
+
+
+    }
+}
+
