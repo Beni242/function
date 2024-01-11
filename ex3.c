@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void Even_number(int N)
+void Even_number()
 {
-   int  even , odd;
+   int  N , even , odd;
    even = 0;
    odd = 0;
 
@@ -20,9 +20,9 @@ void Even_number(int N)
 
 int main()
 {
-    int N;
+    int Nbr;
     
-    Even_number(int N);
+    Even_number( Nbr);
     return 0;
 
 }
