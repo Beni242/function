@@ -1,12 +1,13 @@
 // maximum array with function
 #include <stdio.h>
 #include <stdlib.h>
-int A[10];
 
-int Max_array()
+
+void Max_array()
 {
-    int max_1 = 0;
-    int max_2 = 0;
+    int A[10], x , y;    
+    int max_1 = x;
+    int max_2 = y;
     
     
     for(int i = 0 ; i < 10; i++)
@@ -31,7 +32,9 @@ int Max_array()
 
 int main() 
 {
-       Max_array();
+    int arr[10];  
+    
+    Max_array(arr);
 
     return 0;
 }
