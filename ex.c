@@ -4,12 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
- void Area_square(int C)
+ void Area_square(int S)
     {
         float A = 0;
         
 
-        A = C * C;
+        A = S * S;
         
         printf("the area square is : %.1f ", A);
     }
@@ -26,4 +26,4 @@
    
 
    
-}s
+}
